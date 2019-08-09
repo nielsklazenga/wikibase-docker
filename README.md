@@ -2,7 +2,7 @@
 
 `docker-compose` file and additional files to create Wikibase instance for the TDWG-TNC, using the Wikibase Docker images.
 
-The `docker-compose` file differs from that in the [wmde/wikibase-docker](https://github.com/wmde/wikibase-docker) repository in that all volumes are bound to the host. It also mounts the LocalSettings.php file and the logo. 
+The `docker-compose` file differs from that in the [wmde/wikibase-docker](https://github.com/wmde/wikibase-docker) repository in that all volumes are bound to the host machine. It also mounts the `LocalSettings.php` file and the logo. 
 
 To get it running:
 
