@@ -28,7 +28,7 @@ $wgDebugLogGroups = [
 $wgShellLocale = "en_US.utf8";
 $wgLanguageCode = "en";
 $wgSitename = "Taxonomic Name Usage";
-$wgMetaNamespace = "Project";
+$wgMetaNamespace = "Tnu";
 # Configured web paths & short URLs
 # This allows use of the /wiki/* path
 ## https://www.mediawiki.org/wiki/Manual:Short_URL
@@ -80,3 +80,18 @@ wfLoadExtension( 'cldr' );
 
 # EntitySchema
 wfLoadExtension( 'EntitySchema' );
+
+############################################################################
+
+$wgRightsPage = ""; # Set to the title of a wiki page that describes your license/copyright
+$wgRightsUrl = "https://creativecommons.org/publicdomain/zero/1.0/";
+$wgRightsText = "Creative Commons Zero (Public Domain)";
+$wgRightsIcon = "$wgResourceBasePath/resources/assets/licenses/cc-0.png";
+
+# The following permissions were set based on your choice in the installer
+$wgGroupPermissions['*']['createaccount'] = false;
+$wgGroupPermissions['*']['edit'] = false;
+
+$wgLogo = "$wgResourceBasePath/images/tdwg-tnc-logo.png";
+
+
