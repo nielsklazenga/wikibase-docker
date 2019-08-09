@@ -33,6 +33,7 @@ services:
       - ${DATA_PATH_HOST}/wikibase/images:/var/www/html/images
       - ${DATA_PATH_HOST}/quickstatements:/quickstatements/data
       - ./LocalSettings.php:/var/www/html/LocalSettings.php
+      - ./tdwg-tnc-logo.png:/var/www/html/images/tdwg-tnc-logo.png
     depends_on:
     - mysql
     - elasticsearch
